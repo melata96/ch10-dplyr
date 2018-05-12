@@ -5,7 +5,8 @@
 
 # Read in the data (from `data/pupulitzer-circulation-data.csv`). Remember to 
 # not treat strings as factors!
-
+Join x and y by 'identifier'joined <- left_join(x, y,by='identifier'
+                                                
 
 # View in the data set. Start to understand what the data set contains
 
